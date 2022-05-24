@@ -33,7 +33,7 @@ function Cart() {
                 
             <div className='placeholder-wrapper'>
                 <div className='product-price'>Total Price:{cartPrice}</div>
-                <Link to='/order'><button className='product-btn-placeholder'>Place Order</button></Link>
+                <Link to='/payment'><button className='product-btn-placeholder'>Make Payment</button></Link>
             </div></>:<h2>Your Cart is Empty</h2>
             }
         </div>
