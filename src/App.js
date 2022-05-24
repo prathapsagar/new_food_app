@@ -7,6 +7,7 @@ import Cart from "./components/Cart";
 import Home from "./components/Home";
 import Header from "./components/Header";
 import Placed from "./components/Placed";
+import Payment from "./components/Payment";
 const url = "https://fod-app.herokuapp.com";
 export const FoodContext = React.createContext();
 
@@ -36,6 +37,7 @@ function App() {
             <Route path="/burger" element={<Burger />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/order" element={<Placed />} />
+            <Route path="/payment" element={<Payment />} />
             <Route path="/" element={<Home />} />
           </Routes>
         </FoodContext.Provider>
