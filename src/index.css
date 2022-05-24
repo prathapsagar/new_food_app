@@ -37,11 +37,11 @@
     margin-top: 13px;
     width: 100%;
     text-decoration: none;
-    color: white
+    color: peachpuff
 }
 
-.count_num{
-    color: white;
+.count_num {
+    color: peachpuff
 }
 
 .head-cart>.count {
@@ -115,8 +115,30 @@
     color: black;
 }
 
+.gpaybutton {
+    margin-top: 7%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 400px;
+    background-color: #3e4444;
+}
 
+#gheading {
+    padding: 10px;
+    margin-bottom: 25%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background-color: #034f84;
+    color: white;
+    text-align: center;
+}
 
+.paybutton {
+    margin-bottom: 25%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+}
 
 .product-wrapper>h2 {
     text-align: center;
@@ -183,6 +205,14 @@
 
 /* Cart Page */
 .placeholder-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+.placeholder-wrapper_new {
+   padding-top:10%;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
